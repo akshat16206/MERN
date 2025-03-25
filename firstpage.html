@@ -71,7 +71,7 @@
    <hr>
    <!--anchor tag - link-->
    <a href="https://netfree.cc/home">netmirror</a><br>
-   <a target="_blank" href="https://netfree.cc/home">netmirror in new tab</a><br>
+   <a target="blank" href="https://netfree.cc/home">netmirror in new tab</a><br>
    <a href="mailto:cs.guptaakshat697@gmail.com">send email to akshat</a><hr>
    <img src="images.jpeg" alt="image" width="500"  height="500"/><hr>
    <!--block level and inline element-->
@@ -101,7 +101,7 @@
             <td>cooper</td>
             <td>29</td>
         </tr>
-     </table>
+     </table><br>
      <!--2nd variation -->
      <table>
         <th>country</th>
@@ -116,7 +116,7 @@
             <td>berlin</td>
             <td>frankfurt</td>
         </tr>
-     </table>
+     </table><br>
      <!--3rd variation-->
      <table>
         <tr>
@@ -133,7 +133,36 @@
             <td>berlin</td>
             <td>frankfurt</td>
         </tr>
-     </table>
+     </table><br>
+     <hr>
+     <!--forms-->
+    <form>
+        <!--tyope - text, radio, checkbox, email,date-->
+        <lable>enter your first name:</lable>
+        <input type="text" name="firstname" placeholder="enter first name"/><br>
+        <lable>enter your last name:</lable>
+        <input type="text" name="lastname" placeholder="enter your last name"/><br>
+        <lable>select your gender:</lable><br>
+        <input type="radio" value="male" name="gender" />
+        <lable>male</lable>
+        <input type="radio" value="female" name="gender" />
+        <lable>Female</lable><br>
+        <lable for="hobbies">hobbies</lable><br>
+        <input type="checkbox" name="hobbies1" value="cycling"/>
+        <lable for="hobbies1">cycling</lable>
+        <input type="checkbox" name="hobbies2" value="cooking"/>
+        <lable for="hobbies2">cooking</lable>
+        <input type="checkbox" name="hobbies3" value="reading"/>
+        <lable for="hobbies3">reading</lable><br>
+        <lable for="age">age group</lable><br>
+        <select>
+            <option value="">select option</option>
+            <option value="school">10-20</option>
+            <option value="college">21-25</option>
+            <option value="working">26-40</option>
+        </select><br>
+        <button type="submit">submit</button>
+    </form>
 
 </body>
 </html>
