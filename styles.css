@@ -1,7 +1,10 @@
-p {
-    font-size: 60px;
-    color: white;
-}
+
 body {
-    background-color: rgb(99, 99, 227);
+    font-size: 22px;
+}
+P{
+    color: purple;
+}
+.gray {
+    color: gray;
 }
