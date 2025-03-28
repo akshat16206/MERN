@@ -8,3 +8,7 @@ P{
 .gray {
     color: gray;
 }
+
+#second {
+    font-style: italic;
+}
